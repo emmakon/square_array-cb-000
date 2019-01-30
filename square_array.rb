@@ -3,5 +3,5 @@ def square_array(numbers)
     square = number.to_i**2 
     numbers.push(square)
   end
-  return square_array
+  return numbers
 end
